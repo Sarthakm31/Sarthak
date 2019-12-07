@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+	.abt{
+		color: blue;
+		animation-name: example;
+		animation-duration: 1s;
+		animation-iteration-count: infinite;
+	}
+	@keyframes example{
+		0% {color: red;}
+		25% {color: blue;}
+		50% {color: yellow;}
+		75% {font-size: 40px;}
+	}
+	.navbar{
+		list-style-type: none;
+		margin:0;
+		padding:0;
+		overflow: hidden;
+		background-color: #333;
+	}
+	.navbar li{
+		float: left;
+	}
+	.navbar li a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 20px;
+	}
+	.navbar li a:hover:not(.active){
+		background-color: #111;
+	}
+</style>
+<head>
+	<title>Sample</title>
+</head>
+<body bgcolor="yellow">
+<ul class="navbar">
+	<li><a class="active" href="a">Achievement</a></li>
+	<li><a href="h">Hobbies</a></li>
+	<li><a href="c">contacts</a></li>
+</ul>
+Free Content
+<h1 align="center">Heading 1</h1>
+<h2>Heading 2</h2>
+<h5>Heading 5</h5>
+<img src="123.jpg" height="300" width="500">
+<div class="abt"><p align="center">I have to type something .But i have no idea what i am typing</p></div>
+<ol><li>HTML</li><li>CSS</li><li>Java script</li></ol>
+<a href="contact.html">22</a>
+</body>
+</html>
